@@ -1,0 +1,147 @@
+{
+  "name": "SUT_STS_VA_Filing",
+  "description": "",
+  "main": "Main.xaml",
+  "dependencies": {
+    "SovosLibrary.SendMailViaIMR": "[1.0.1]",
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.PDF.Activities": "[3.16.0]",
+    "UiPath.System.Activities": "[23.4.4]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c1d805f2-3919-47a1-8a3a-151bf35defbc",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ec1425a4-7d44-40ef-b0cf-dbc4103a9f21",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7f674624-7fe3-4207-a280-e247612c5c1e",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e2000fdb-91b4-4426-87df-4a6b7f7eeaa3",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f8157dab-3110-4141-9c66-a93c34abeb34",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ff377238-3618-4ee9-8742-67bb4cd786db",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "02daf57a-f1a9-4741-b38b-62a3f668ea27",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\Main\\Test_Login.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3c92d02e-e977-4b5f-88a2-e393d29d5de3",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\Main\\Test_CheckLocalities.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b982485e-4fc7-4120-b6d7-60b2ead2b4b2",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\Main\\Test_FillScheduleTable.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "96bd9c54-fe29-4f09-b51d-e323a67ef2b7",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\Main\\Test_AddLocalityInList.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4c416d0a-4d38-45ec-b762-1326f36359e4",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\Main\\Test_WriteTestFilesFromPDF.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "67a4ffc1-9f2e-4070-9676-4ce96277c5cb",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "fileName": "Tests\\Main\\Test_TrimDatacolumns.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "a73894da-f460-4742-8d38-f0b1f592440a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

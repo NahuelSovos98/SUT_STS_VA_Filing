@@ -1,0 +1,453 @@
+Form ST-8 Virginia Out-Of-State Dealer’s
+Sales and Use Tax Return *VAST08124888*
+For Periods Beginning On and After July 1, 2022
+All Form ST-8 filers are required to file and pay electronically at www.tax.virginia.gov.See ST-8A Worksheet for instructions.
+Name Account Number
+Olive and Linen LLC 12- -814265478F-001
+Address Filing Period  (Enter month or quarter and year)
+261 S Main St, # 165 7/1/2023-7/31/2023
+City, State, ZIP Code Due Date (20th of month following end of period)
+Newtown, CT 06470-2746 8/20/2023
+OUT-OF-STATE DEALER’S SALES AND USE TAX A - SALES B - AMOUNT DUE
+1 Gross Sales and/or Rentals 1 $497.57
+2 Personal Use 2
+3 Exempt State Sales and Other Deductions 3 $26.00
+4 Total Taxable State Sales and Use. Line 1 plus Line 2 minus Line 3. 4 $471.57
+5 State - Qualifying Food Sales and Use. Enter taxable sales in Column A.  Multiply 5 $0.00 x .015 = $0.00
+Column A by the rate of 1.5% (.015) and enter the result in Column B.
+5a State- Essential Personal Hygiene Products Sales and Use. Enter taxable sales
+in Column A. Multiply Column A by the rate of 1.5% (.015) and enter the result in 5a x .015 =
+Column B.
+6 State - General Sales and Use. Enter taxable sales in Column A (Line 4 minus
+Lines 5 and 5a, Column A .  Multiply Column A by the rate of 4.3% (.043) and ) 6 $471.57 x .043 = $20.28
+enter the result in Column B.
+7 State Tax. Add Line 5, Column B, Line 5a, Column B and 6, Column B. 7 $20.28
+8 Dealer Discount. See ST-8A Worksheet. 8 $0.23
+9 Net State Sales and Use Tax. Line 7 minus Line 8. 9 $20.05
+10 Additional Regional State Sales and Use. See ST-8A Worksheet.
+10a Northern Virginia Regional Transportation Sales Tax. Enter total taxable 10a $49.99 x .007 = $0.35
+sales for this region in Column A.  Multiply Column A by the rate of 0.7%
+(.007) and enter result in Column B.
+10b Hampton Roads Regional Transportation Sales Tax. Enter total taxable $0.00 $0.00
+sales for this region in Column A. Multiply Column A by the rate of 0.7% 10b x .007 =
+(.007) and enter result in Column B.
+10c Central Virginia Regional Transportation Sales Tax. Enter total taxable
+sales for this region in Column A. Multiply Column A by the rate of 0.7% (.007) 10c $100.09 x .007 = $0.70
+and enter result in Column B.
+10d Historic Triangle Regional Sales Tax. Enter the total taxable sales for this
+region in Column A. All taxable sales reported here in Column A should also 10d $0.00 x .01 = $0.00
+be included in the taxable sales reported in Column A of Line 10b. Multiply
+Column A by the rate of 1.0% (.01) and enter the result in Column B.
+11 Total State and Regional Tax. Add Lines 9; 10a, Column B; 10b, Column B; 10c, Column B; and 10d, Column B. 11 $21.10
+12 Local Tax. Enter local taxable sales in Column A.  Multiply Column A by 1.0% (.01). 12 $471.57 x .01 = $4.72
+Enter result in Column B. See Worksheet ST-8A and complete Form ST-8B.
+12a Additional Local Option Tax in the following localities: City of Danville, Charlotte,
+Gloucester, Halifax, Henry, Northampton and Patrick Counties. Enter in Column $0.00 $0.00
+A the portion of Line 6, Column A, sourced to the locality in which the sales were 12a x .01 =
+made. Multiply Column A by 1.0% (.01) and enter the result in Column B. See ST-8A
+Worksheet.
+13 Total State, Regional, Local, and Additional Local Option Tax. Add Lines 11, 12, and 12a, Column B. 13 $25.82
+14 Prepaid Wireless Fee. Enter number of items sold in Column A and fee due net of 14 14
+Dealer Discount in Column B. See ST-8A Worksheet.
+15 Total Taxes and Fees. Add Line 13 and Line 14, Column B. 15 $25.82
+16 Penalty. See ST-8A Worksheet. 16
+17 Interest. See ST-8A Worksheet. 17
+ST-8 6205048  Rev.04/22
+18 Total Amount Due. Add Lines 15, 16 and 17. 18 $25.82
+Declaration and Signature. I declare that this return (including accompanying schedules and statements) has been examined by me and to the best of my knowledge and belief
+is true, correct and complete.
+8/12/2023 (313) 509-7934
+Signature Date Phone NumberAdditional Local Option Tax
+City of Danville
+The City of Danville has adopted an additional 1% local option sales and use tax, effective July 1, 2022. Other localities with
+this same tax include Charlotte, Gloucester, Halifax, Henry, Northampton and Patrick Counties. This tax is in addition to the
+one percent general local sales and use tax authorized under current law. The additional tax will not be levied on essential
+personal hygiene products or food purchased for human consumption that is taxed at a reduced rate. Refer to Form ST-9S
+to report taxable sales in participating localities. More information is available on the website www.tax.virginia.gov.
+Retail Sales and Use Taxes on Room Rentals
+Beginning September 1, 2021, the retail sales and use tax (RSUT) is levied upon the total charge for room rentals, including
+any accommodations fees charged by accommodations intermediaries. “Accommodations” does not include rooms or space
+offered such as conference rooms, meeting space, or event space if the accommodations provider does not also offer rooms
+available for overnight sleeping. This provision is retroactive to September 1, 2021; however, no taxpayer is entitled to a
+refund of taxes remitted prior to July 1, 2022.
+New legislation, effective October 1, 2022, changes the process for the collection of RSUT and transient occupancy taxes
+for accommodations intermediaries and hotels. More information is available on the website at www.tax.virginia.gov.
+Essential Personal Hygiene Products Tax
+Effective January 1, 2020, certain personal hygiene products qualify for reduced sales and use tax rate. The state retail sales
+and use tax rate on certain personal hygiene products is one and one-half percent. The one percent local sales and use
+tax rate is also applicable to these purchases. This results in a combined tax rate of two and one-half percent on essential
+personal hygiene products. Personal hygiene products subject to the reduced rate are exempt from the  additional one percent
+sales and use tax in the Historic Triangle and the 0.7 percent tax in Northern Virginia, Hampton Roads and Central Virginia.
+Essential personal hygiene products are defined as: (i) nondurable incontinence products such as diapers, disposable
+undergarments, pads, and bed sheets and (ii) menstrual cups and pads, pantyliners, sanitary napkins, tampons, and other
+products used to absorb or contain menstrual flow. “Essential personal hygiene products” does not include any item that is
+otherwise exempt. More information is available on the website www.tax.virginia.gov.
+Remote Sales and Use Tax Collection
+Beginning July 1, 2019, remote sellers and marketplace facilitators who sell or facilitate the sale of more than $100,000 in
+annual gross revenue from retail sales into the Commonwealth (“gross revenue”) or 200 or more annual transactions to
+Virginia customers must register for the collection of the tax.
+File Electronically
+All out-of-state dealer’s use taxpayers are required to file their Out-Of-State Dealer’s Use Tax returns and make all payments
+electronically.  If you are unable to file and pay electronically you may request a waiver.  You can obtain the waiver request
+form at www.tax.virginia.gov or by calling (804) 367-8037.
+
+Additional instructions are on the back of this sheet.
+Form ST-8V   Virginia Out-Of-State Dealer’s Sales and Use Tax Payment Voucher
+(Doc ID 138) Department Of Taxation, P.O. Box 26627, Richmond, VA  23261-6627
+
+0000000000000000 1388888 000000
+If your have been granted a waiver, enter the total
+Filing Period  (Enter month or quarter and year) Due Date (20th of month following end of period) amount due from Form ST-8 on the voucher, Form
+7/1/2023-7/31/2023 8/20/2023 ST-8V, and enclose this voucher and your check
+Account Number with your return. Make your check payable to the
+Form ST-8V 6201050  Rev. 04/22
+12- -814265478F-001 Department of Taxation.
+Name
+Olive and Linen LLC Total Amount Due From Form ST-8
+Address
+261 S Main St, # 165
+
+City, State, ZIP Code       2 5 . 8 2
+Newtown, CT 06470-2746Definition of Qualifying Food
+Food for home consumption by humans, as defined under the Food Stamp Act of 1977, 7 U.S.C. § 2012, qualifies for the
+reduced sales tax rate. The definition includes most staple grocery food items and cold prepared foods packaged for home
+consumption. Specifically excluded from the definition of food for home consumption are alcoholic beverages, tobacco and
+prepared hot foods sold for immediate consumption on and off the premises. The reduced sales and use tax rate does not
+apply to seeds and plants which produce food for human consumption. More information is provided in Tax Bulletin 05-7,
+Food Tax Rate Reduction, available on the website www.tax.virginia.gov/laws-rules-decisions/tax-bulletins/05-7.
+
+Return and Payment Filing
+• File and pay online unless you receive approval for a temporary hardship waiver.  Obtain a waiver from the Department’s
+website.
+• Forms and instructions are available online for download.
+• Return and payment are due on the 20th of month following end of period.
+• Make your check payable to the Department of Taxation.
+• Please use our online services to report a change to your business or mailing address or if you discontinue business.
+
+Customer Services
+• For assistance call (804) 367-8037 or write to:
+Virginia Department of Taxation
+P.O. Box 1115
+Richmond, VA 23218-1115
+• Tenemos servicios disponible en Español.Form ST-8B  Virginia Schedule of
+Local Sales and Use Taxes *VAST8B119888*
+Name Account Number
+Olive and Linen LLC 12- -814265478F-001
+Address Filing Period  (Enter month or quarter and year)
+261 S Main St, # 165 7/1/2023-7/31/2023
+City, State, ZIP Code Due Date (20th of month following end of period)
+Newtown, CT 06470-2746 08/20/2023
+• Complete	this	form	and	file	it	with	Form	ST-8	to	compute	taxable	sales	sourced	to	Virginia	localities.		Be	sure	to	complete	all	columns.	See	the	list	of
+locality	codes	and	Virginia	cities	and	counties	included	in	this	form	package.
+• More	information	is	provided	about	the	Retail	Sales	and	Use	Tax	Increase	in	the	Central	Virginia	Region	on	the	website	at	www.tax.virginia.gov/
+tax-bulletins.
+• To determine locality code based on delivery address visit www.tax.virginia.gov/fips.
+
+A B B1 C D E F G
+Local Taxable Sales
+Locality Name Code Gross Sales Personal Use Exempt State Sales of Fuel for Domestic Local Taxable Sales
+& Other Deductions Consumption (= C + D - E + F)
+(If included in E)
+Alexandria 51510 57.99 0.00 8.00 0.00 49.99
+Fauquier 51061 122.49 0.00 0.00 0.00 122.49
+Hanover 51085 100.09 0.00 0.00 0.00 100.09
+King William 51101 18.00 0.00 18.00 0.00 0.00
+Rappahannock 51157 199.00 0.00 0.00 0.00 199.00
+
+Page 1 Subtotal 497.57 26.00 471.57
+Subtotal From Other Pages, If
+Applicable
+Grand Total 497.57 26.00 471.57
+
+Va. Dept. of Taxation   ST-8B 6201051 Rev. 03/20Form ST-8R Virginia Schedule of Regional State Sales *VAST8R121888*
+and Use Tax
+
+Account Number Due Date (20th of month following end of period)
+12- -814265478F-001 8/20/2023
+Northern Virginia Region
+A B C D E F G
+Locality Name Code Gross Sales &  Exempt State Sales & Qualifying Food  Essential Personal Regional Taxable Sales
+Personal Use Other Deductions Sales & Use Hygiene Sales & Use (= C - D - E - F)
+Alexandria City 51510 57.99 8.00 0.00 49.99
+Arlington County 51013 0.00 0.00 0.00 0.00
+Fairfax City 51600 0.00 0.00 0.00 0.00
+Fairfax County 51059 0.00 0.00 0.00 0.00
+Falls Church City 51610 0.00 0.00 0.00 0.00
+Loudoun County 51107 0.00 0.00 0.00 0.00
+Manassas City 51683 0.00 0.00 0.00 0.00
+Manassas Park City 51685 0.00 0.00 0.00 0.00
+Prince William County 51153 0.00 0.00 0.00 0.00
+Total Northern Virginia 57.99 8.00 0.00 49.99
+Transfer amount above to
+Line 10a, Col. A, Form ST-8.
+Hampton Roads Region
+A B C D E F G
+Locality Name Code Gross Sales &  Exempt State Sales & Qualifying Food  Essential Personal Regional Taxable Sales
+Personal Use Other Deductions Sales & Use Hygiene Sales & Use (= C - D - E - F)
+Chesapeake City 51550 0.00 0.00 0.00 0.00
+Franklin City 51620 0.00 0.00 0.00 0.00
+Hampton City 51650 0.00 0.00 0.00 0.00
+Isle of Wight County 51093 0.00 0.00 0.00 0.00
+James City County 51095 0.00 0.00 0.00 0.00
+Newport News City 51700 0.00 0.00 0.00 0.00
+Norfolk City 51710 0.00 0.00 0.00 0.00
+Poquoson City 51735 0.00 0.00 0.00 0.00
+Portsmouth City 51740 0.00 0.00 0.00 0.00
+Southampton County 51175 0.00 0.00 0.00 0.00
+Suffolk City 51800 0.00 0.00 0.00 0.00
+Virginia	Beach	City 51810 0.00 0.00 0.00 0.00
+Williamsburg City 51830 0.00 0.00 0.00 0.00
+York County 51199 0.00 0.00 0.00 0.00
+Total Hampton Roads 0.00 0.00 0.00 0.00
+Transfer amount above to
+Line 10b, Col. A, Form ST-8.
+
+Form ST-8R  6201048  Rev. 12/19Form ST-8R Virginia Schedule of Regional State Sales
+Page 2 and Use Tax *VAST8R221888*
+Central Virginia Region
+A B C D E F G
+Locality Name Code Gross Sales &  Exempt State Sales & Qualifying Food  Essential Personal Regional Taxable Sales
+Personal Use Other Deductions Sales & Use Hygiene Sales & Use (= C - D - E - F)
+Charles City County 51036 0.00 0.00 0.00 0.00
+Chesterfield	County 51041 0.00 0.00 0.00 0.00
+Goochland County 51075 0.00 0.00 0.00 0.00
+Hanover County 51085 100.09 0.00 0.00 100.09
+Henrico County 51087 0.00 0.00 0.00 0.00
+New Kent County 51127 0.00 0.00 0.00 0.00
+Powhatan County 51145 0.00 0.00 0.00 0.00
+City of Richmond 51760 0.00 0.00 0.00 0.00
+Total Central Virginia Region 100.09 0.00 0.00 100.09
+Transfer amount above to
+Line 10c, Col. A, Form ST-8.
+Historic Triangle Region - All taxable sales reported Region here in Column C should also be included in the taxable sales reported in
+Column C of Hampton Roads Region Table above.
+A B C D E F G
+Locality Name Code Gross Sales &  Exempt State Sales & Qualifying Food  Essential Personal Regional Taxable Sales
+Personal Use Other Deductions Sales & Use Hygiene Sales & Use (= C - D - E - F)
+James City County 51095 0.00 0.00 0.00 0.00
+Williamsburg City 51830 0.00 0.00 0.00 0.00
+York County 51199 0.00 0.00 0.00 0.00
+Total Historic Triangle 0.00 0.00 0.00 0.00
+Transfer amount above to
+Line 10d, Col. A, Form ST-8Form ST-8S Virginia Schedule of Additional Local *VAST8S123888*
+Option Sales and Use Tax
+
+Account Number Due Date (20th of month following end of period)
+10- -814265478F-001 8/20/2023
+
+Additional Local Option Sales and Use Tax
+A B C D E F
+Locality Name Code Local Taxable Sales From Qualifying Food  Essential Personal Hygiene Local Taxable Sales
+ST-8B Column G Sales & Use Sales & Use (=  C - D - E)
+
+Charlotte County 51037 0.00 0.00 0.00
+Danville City 51590 0.00 0.00 0.00
+Gloucester County 51073 0.00 0.00 0.00
+Halifax County 51083 0.00 0.00 0.00
+Henry County 51089 0.00 0.00 0.00
+Northampton County 51131 0.00 0.00 0.00
+Patrick County 51141 0.00 0.00 0.00
+Total Local Option Tax 0.00 0.00 0.00
+Transfer amount above to Line
+12a, Col. A, Form ST-8 and
+ST-8A Worksheet
+
+Form ST-8S  6201035  Rev. 03/22ST-8A Name
+Olive and Linen LLC
+Virginia Out-Of-State Dealer’s Sales and Use Account Number
+12- -814265478F-001
+Tax Worksheet Filing Period  (Enter month or quarter / year) Due Date
+For your records. Do not mail. 7/1/2023-7/31/2023 8/20/2023
+For Periods Beginning On and After July 1, 2022
+Complete Form ST-8B and file it with Form ST-8 to compute taxable sales sourced to Virginia localities. You must also file Form ST-8R if reporting sales sourced to any locality
+in the Northern Virginia, Hampton Roads, Central Virginia, or the Historic Triangle Regions. Visit www.tax.virginia.gov/fips to determine locality based on delivery address.
+You must file Form ST-8S if you are reporting sales in the following localities: City of Danville, Charlotte, Gloucester, Halifax, Henry, Northampton and Patrick Counties.
+A-SALES B-AMOUNT DUE
+OUT-OF-STATE DEALER’S SALES AND USE TAX
+1 Gross Sales and/or Rentals. Enter the total gross dollar amount of items of tangible
+personal property and/or taxable services sold or leased during the period, whether for
+cash or on credit, including any services that were a part of a sale, but excluding the cost
+price of tangible personal property defined on Line 2. Do not include sales tax in your
+gross sales figure. .......................................................................................................... 1 $497.57
+2 Personal Use. Enter the cost price of tangible personal property purchased without
+payment of sales tax and withdrawn from inventory for use or consumption and/or cost
+price of tangible personal property purchased either in or outside this state for dealer’s
+own use or consumption on which no sales or use tax has been paid. ......................... 2
+3 Exempt State Sales and Other Deductions. Enter the total of all exempt sales and other
+deductions (as defined below) that apply to the period covered by this return.
+a  Enter the exempt sales amount. Exempt sales include, but are not limited to, resale,
+sales in interstate commerce and other sales for which an exemption certificate was
+required; one-half the charge made for maintenance contracts that provide for both
+parts and labor; and, sales of fuels for domestic consumption. An example of an exempt
+sale for which no exemption certificate is required is the sale of qualifying items sold
+during the sales tax holiday. Attach a schedule to the worksheet ............................... 3a $18.00
+b Enter sales price of tangible personal property sold and returned by customers
+during this period that resulted in a refund to the customer or a credit to the customer’s
+account provided such sales are included on Line 1 and not deducted on Line 3a. 3b $0.00
+c Enter sales price of tangible personal property returned for which the state and local
+taxes were paid in a prior period that resulted in a refund to the customer or a credit
+to the customer’s account after you have paid the state and local tax on such items.
+Also, include unpaid sales price of tangible personal property sold under a retained title,
+conditional sale or similar contract that was repossessed and for which the state and
+local taxes were paid in a prior period. ........................................................................ 3c
+d Enter sales price of tangible personal property charged off as bad debt for which the
+state and local tax was paid in a prior period. ............................................................ 3d
+e Enter any other deductions allowed by law. Attach a list to this worksheet ............... 3e $8.00
+f Subtotal. Add Lines 3a through 3e. ............................................................................ 3f $26.00
+4 Total Taxable State Sales and Use. Line 1 plus Line 2 minus Line 3f ......................... 4 $471.57
+5 State - Qualifying Food Sales and Use. Enter qualifying taxable food sales in Column A.
+Multiply Column A by the rate of 1.5% (.015) and enter the result in Column B ............. 5 $0.00 x .015 = $0.00
+5a State - Essential Personal Hygiene Products. Enter qualifying taxable personal
+hygiene products sales in Column A. Multiply Column A by the rate of 1.5% (.015) and
+enter the result in Column B. ............................................................................................. 5a x .015 =
+6 State - General Sales and Use. Enter taxable sales in Column A (Line 4 minus Lines 5 and 5a,
+Column A). Multiply Column A by the rate of 4.3% (.043) and enter the result in Column B. 6 $471.57 x .043 = $20.28
+7 State Tax. Add Line 5, Column B, Line 5a, Column B and Line 6, Column B .......................................................... 7 $20.28
+8 Dealer Discount. A dealer discount may be taken only if the return and payment are submitted by the due date. Any
+dealer whose average monthly sales tax liability exceeds $20,000 is not eligible for the discount.  All other dealers
+must use the dealer discount chart below to determine the dealer discount RATE.  The taxable sales on Line 4 is used
+to determine the RATE ONLY.  The dealer discount is calculated by multiplying the state tax on Line 6, Column B by
+the dealer discount rate following Step 2 below.
+Step 1 - Determine Monthly Taxable Sales and Dealer Discount Rate(s)
+• Use taxable sales on Line 4 to determine the dealer discount rate(s).
+• If you file more than one return, use the total of taxable sales from all locations.
+Form ST-8A 6201049  Rev. 03/22
+• If you file on a quarterly basis, divide the taxable sales for all locations by 3 to determine monthly taxable sales.
+Food Tax and Personal General Sales & Use Tax
+Monthly Taxable Sales Hygiene Products Tax Enter on Line 8h below.
+Enter on Line 8b or 8e
+(a) (b) (c) (d)
+At Least But Less Than
+$0 $62,501 .016 .01116
+$62,501 $208,001 .012 .00837
+$208,001 And Up .008 .00558A-SALES B-AMOUNT DUE
+Step 2 - Compute the Dealer Discount Amount
+Food Tax
+a Enter the tax amount reported on Line 5, Column B. . . . . . .8a. $0.00
+b Enter the dealer discount factor for Food Tax. 0.016
+See Column (c) above.. . . . . . . . . . . . . . . . . . . . . . . . . . . . .8b.
+c Multiply Line 8a by Line 8b. . . . . . . . . . . . . . . . . . . . . . . . . .8c. $0.00
+Personal Hygiene Products Tax
+d Enter the tax amount reported on Line 5a, Column B. ......... 8d. ______________________
+e Enter the dealer discount factor for Personal Hygiene
+Products Tax (See Column (c) above). ................................. 8e. ______________________
+f Multiply Line 8d by Line 8e. ................................................... 8f. _______________________
+General Sales And Use Tax
+g Enter the tax amount reported on Line 6, Column B. . . . . . .8g. $20.28
+h Enter the dealer discount factor for General Sales & 0.01116
+Use Tax. See Column (d) above. . . . . . . . . . . . . . . . . . . . . .8h.
+i  Multiply Line 8g by 8h. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .8i. $0.23
+8 Total Dealer Discount. Add Lines 8c, 8f and 8i. ........................................................................................................ 8 $0.23
+9 Net State Sales and Use Tax. Line 7 minus Line 8. .................................................................................................. 9 $20.05
+10 Additional Regional State Sales Tax. If you have sales sourced to any locality in the Northern
+Virginia, Hampton Roads, Central Virginia, or Historic Triangle Regions (see table below), complete
+Form ST-8R. Report total sales by region on Lines 10a, 10b, 10c, and 10d of the worksheet
+below and Form ST-8.
+Northern Virginia Region Hampton Roads Region Central Virginia Region Historic Triangle Region
+Alexandria City Loudoun County Chesapeake City Poquoson City Charles City County Henrico County James City County
+Arlington County Manassas City Franklin City Portsmouth City Chesterfield County New Kent County York County
+Fairfax City Manassas Park City Hampton City Southampton County Goochland County Powhatan County Williamsburg City
+Fairfax County Prince William County Isle of Wight County Suffolk City Hanover County Richmond City
+Falls Church City James City County Virginia Beach City
+Newport News City Williamsburg City
+Norfolk City York County
+10a Northern Virginia. Enter in Column A the portion of Line 6, Column A sourced to the
+Northern Virginia Region. Multiply Column A by the rate of 0.7% (.007) and enter the
+result in Column B. ................................................................................................. 10a $49.99 x .007 = $0.35
+10b Hampton Roads. Enter in Column A  the portion of Line 6, Column A sourced to the
+Hampton Roads Region. Multiply Column A by the rate of 0.7% (.007) and enter the
+result in Column B. ................................................................................................. 10b $0.00 x .007 = $0.00
+10c Central Virginia. Enter in Column A  the portion of Line 6, Column A sourced to the
+Central Virginia Region. Multiply Column A by the rate of 0.7% (.007) and enter the
+result in Column B... ............................................................................................... 10c $100.09 x .007 = $0.70
+10d Historic Triangle. Enter in Column A  the portion of Line 6, Column A sourced to the
+Historic Triangle. All taxable sales reported here in Column A should also be included
+in the taxable sales reported in Column A of Line 10b. Multiply Column A by the rate
+of 1.0% (.01) and enter the result in Column B. ..................................................... 10d $0.00 x .01 = $0.00
+11 Total State and Regional Tax. Add Line 9; Line 10a, Column B;
+Line 10b, Column B; Line 10c, Column B; and Line 10d, Column B. .......................................................................... 11 $21.10
+12 Local Tax. Enter local taxable sales in Column A.  Multiply Column A by 1.0% (.01) and
+enter the result in Column B. Generally, the amount entered in Column A is the same as the
+taxable state sales and use amount. However, if you reported sales of fuels for domestic
+consumption as an exempt sale, you may be required to enter a different amount. Sales
+of fuels for domestic consumption are not subject to state tax but are subject to local tax
+unless the locality has specifically exempted these fuels. If the locality has not specifically
+exempted these fuel sales, the amount you enter on Line 12, Column A, must equal the
+total of your sales of fuels for domestic consumption plus the amount on Line 4. Complete
+Form ST-8B to report sales sourced to Virginia localities ............................................... 12 $471.57 x .01 = $4.72
+12a Additional Local Option Tax in the following localities: City of Danville, Charlotte,
+Gloucester, Halifax, Henry, Northampton and Patrick Counties. Enter taxable sales in
+these counties from Form ST-8S, Column F in Column A. Multiply Column A by 1.0% (.01)
+and enter the result in Column B. Generally, the amount entered in Column A is the same as
+the taxable state sales and use amount. However, if you reported sales of fuels for domestic
+consumption as an exempt sale, you may be required to enter a different amount. Sales
+of fuels for domestic consumption are not subject to state tax but are subject to local tax
+unless the locality has specifically exempted these fuels. If the locality has not specifically
+exempted these fuel sales, the amount you enter on Line 12a, Column A, must equal the
+total of your sales of fuels for domestic consumption plus the amount on Line 4 less Lines $0.00 $0.00
+5 and 5a....................................................................................................................... .......... 12a x .01 =A-SALES B-AMOUNT DUE
+
+13 Total State, Regional Local, and Additional Local Option Tax. Add Lines 11, 12, and 12a, Column B ............. 13 $25.82
+14 Prepaid Wireless Fee.
+a. Enter the number of items sold. Each separate retail
+purchase of a prepaid service is considered an item.
+Enter here and on Form ST-8, Line 14, Column A 14a.
+b. Fee - Multiply line 14a by $0.63. 14b.
+c. Dealer Discount - Multiply Line 14b by 5.0% (0.05)
+Allowed if filed and paid timely. If paid late enter 0. 14c.
+Net Prepaid Wireless Fee. Line 14b minus Line 14c. Enter result on Form ST-8, Line 14, Column B ...................... 14
+15 Total Taxes and Fees. Add Lines 13 and 14, Column B ............................................................................................ 15 $25.82
+16 Penalty For Late Filing & Payment. Penalty for late filing and payment of Sales and Use Tax - 6% of Line 15 for
+each month or part of a month the tax is not paid, not to exceed 30%. The minimum payment is $10.00, even if tax due
+is $0 ............................................................................................................................................................................. 16
+17 Interest, Interest is assessed on Line 15 at the rate established in Section 6621 of the Internal Revenue Code of
+1954, as amended, plus 2%. For interest rates visit www.tax.virginia.gov.. ............................................................. 17
+18 Total Amount Due. Add Lines 15, 16 and 17. ............................................................................................................ 18 $25.82List	of	All	Virginia	Counties	and	Cities	and	Locality	Code	Numbers
+* Please note that four counties have the same name as a city - Fairfax, Franklin, Richmond and Roanoke.
+Counties
+Accomack 51001 Franklin County* 51067 Nottoway 51135
+Albemarle 51003 Frederick 51069 Orange 51137
+Alleghany 51005 Giles 51071 Page 51139
+Amelia 51007 Gloucester 51073 Patrick 51141
+Amherst 51009 Goochland 51075 Pittsylvania 51143
+Appomattox 51011 Grayson 51077 Powhatan 51145
+Arlington 51013 Greene 51079 Prince Edward 51147
+Augusta 51015 Greensville 51081 Prince George 51149
+Bath 51017 Halifax 51083 Prince William 51153
+Bedford 51019 Hanover 51085 Pulaski 51155
+Bland 51021 Henrico 51087 Rappahannock 51157
+Botetourt 51023 Henry 51089 Richmond County*   51159
+Brunswick 51025 Highland 51091 Roanoke County* 51161
+Buchanan 51027 Isle Of Wight 51093 Rockbridge 51163
+Buckingham 51029 James City 51095 Rockingham 51165
+Campbell 51031 King And Queen 51097 Russell 51167
+Caroline 51033 King George 51099 Scott 51169
+Carroll 51035 King William 51101 Shenandoah 51171
+Charles City 51036 Lancaster 51103 Smyth 51173
+Charlotte 51037 Lee 51105 Southampton 51175
+Chesterfield	51041 Loudoun  51107 Spotsylvania 51177
+Clarke 51043 Louisa 51109 Stafford 51179
+Craig 51045 Lunenburg 51111 Surry 51181
+Culpeper 51047 Madison 51113 Sussex 51183
+Cumberland 51049 Mathews 51115 Tazewell 51185
+Dickenson 51051 Mecklenburg 51117 Warren 51187
+Dinwiddie 51053 Middlesex 51119 Washington 51191
+Essex 51057 Montgomery 51121 Westmoreland 51193
+Fairfax County* 51059 Nelson 51125 Wise 51195
+Fauquier 51061 New Kent 51127 Wythe 51197
+Floyd 51063 Northampton 51131 York 51199
+Fluvanna 51065 Northumberland 51133
+Cities
+Alexandria 51510 Galax 51640 Poquoson 51735
+Bristol 51520 Hampton 51650 Portsmouth 51740
+Buena	Vista	51530 Harrisonburg 51660 Radford 51750
+Charlottesville 51540 Hopewell 51670 Richmond City* 51760
+Chesapeake 51550 Lexington 51678 Roanoke City* 51770
+Colonial Heights 51570 Lynchburg 51680 Salem 51775
+Covington 51580 Manassas 51683 Staunton 51790
+Danville 51590 Manassas Park 51685 Suffolk 51800
+Emporia 51595 Martinsville 51690 Virginia	Beach	51810
+Fairfax City* 51600 Newport News 51700 Waynesboro 51820
+Falls Church 51610 Norfolk  51710 Williamsburg 51830
+Franklin City* 51620 Norton 51720 Winchester 51840
+Fredericksburg 51630 Petersburg 51730
