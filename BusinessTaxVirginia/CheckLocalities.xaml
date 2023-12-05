@@ -2,13 +2,14 @@
   <x:Members>
     <x:Property Name="io_dtReport" Type="InOutArgument(sd:DataTable)" />
     <x:Property Name="in_ListLocalitiesToReject" Type="InArgument(scg:List(x:String))" />
-    <x:Property Name="out_ListLocalitiesNotFound" Type="OutArgument(scg:List(x:String))" />
+    <x:Property Name="in_ListLocalitiesToUncheck" Type="InArgument(scg:List(x:String))" />
     <x:Property Name="out_ListLocalitiesRejected" Type="OutArgument(scg:List(x:String))" />
+    <x:Property Name="out_ListLocalitiesNotFound" Type="OutArgument(scg:List(x:String))" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>845.333333333333,2650.66666666667</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>586.666666666667,3160</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>CheckLocalities_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -81,7 +82,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="CheckLocalities" sap:VirtualizedContainerService.HintSize="596.666666666667,2586" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="CheckLocalities" sap:VirtualizedContainerService.HintSize="596.666666666667,3095.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(x:String)" Name="ListNotFoundLocalities" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtScheduleLocalities" />
@@ -200,6 +201,43 @@
         </ActivityAction>
       </ui:ForEachRow.Body>
     </ui:ForEachRow>
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each Locality To uncheck" sap:VirtualizedContainerService.HintSize="534.666666666667,469.333333333333" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[in_ListLocalitiesToUncheck]">
+      <ui:ForEach.Body>
+        <ActivityAction x:TypeArguments="x:String">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:String" Name="Locality" />
+          </ActivityAction.Argument>
+          <TryCatch DisplayName="Try Catch - Check locality in schedule list" sap:VirtualizedContainerService.HintSize="434,340" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+            <TryCatch.Try>
+              <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="RemoveLocality.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="BusinessTaxVirginia\CreateSchedule\RemoveLocality.xaml">
+                <ui:InvokeWorkflowFile.Arguments>
+                  <OutArgument x:TypeArguments="x:String" x:Key="out_NewLocalityName" />
+                  <InArgument x:TypeArguments="x:String" x:Key="in_LocalityName">
+                    <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="Locality" />
+                  </InArgument>
+                </ui:InvokeWorkflowFile.Arguments>
+              </ui:InvokeWorkflowFile>
+            </TryCatch.Try>
+            <TryCatch.Catches>
+              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,166.666666666667" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ActivityAction x:TypeArguments="s:Exception">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                  </ActivityAction.Argument>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Error" Message="[&quot;Error to uncheck locality &lt;&quot;+Locality+&quot;&gt;. Details: &quot; + exception.Message + &quot; at source: &quot; + exception.Source + &quot;. Continue to fill schedule table&quot;]" />
+                </ActivityAction>
+              </Catch>
+            </TryCatch.Catches>
+          </TryCatch>
+        </ActivityAction>
+      </ui:ForEach.Body>
+    </ui:ForEach>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BusinessTaxVirginia\CreateSchedule\ConfirmScheduleSelection.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="534.666666666667,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="BusinessTaxVirginia\CreateSchedule\ConfirmScheduleSelection.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />

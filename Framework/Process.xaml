@@ -12,7 +12,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>845.333333333333,2159.33333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>634.666666666667,3706</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="50">
@@ -87,16 +87,16 @@
       <AssemblyReference>System.Data.Entity</AssemblyReference>
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="546,2094.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="644.666666666667,3641.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="boolIsReportValid" />
       <Variable x:TypeArguments="x:String" Name="ExceptionMessage" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtReport" />
       <Variable x:TypeArguments="scg:List(x:String)" Name="ListLocalities" />
       <Variable x:TypeArguments="scg:List(x:String)" Name="ListLocalitiesToReject" />
+      <Variable x:TypeArguments="scg:List(x:String)" Name="ListLocalitiesToUncheck" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -104,9 +104,9 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="484,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
-    <ui:Comment DisplayName="Comment (placeholder)" sap:VirtualizedContainerService.HintSize="484,56.6666666666667" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//  Invoke steps of the process" />
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Logic\ValidateReportTemplate.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Logic\ValidateReportTemplate.xaml">
+    <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="582.666666666667,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
+    <ui:Comment DisplayName="Comment (placeholder)" sap:VirtualizedContainerService.HintSize="582.666666666667,56.6666666666667" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//  Invoke steps of the process" />
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Logic\ValidateReportTemplate.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="582.666666666667,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Logic\ValidateReportTemplate.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="in_PathTemplateOrigin">[in_Config("PathTemplate").ToString]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_PathReportToValidate">[in_PathReport]</InArgument>
@@ -115,7 +115,7 @@
         <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dtReport">[dtReport]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <If Condition="[Not boolIsReportValid]" DisplayName="If report is not valid" sap:VirtualizedContainerService.HintSize="484,256" sap2010:WorkflowViewState.IdRef="If_1">
+    <If Condition="[Not boolIsReportValid]" DisplayName="If report is not valid" sap:VirtualizedContainerService.HintSize="582.666666666667,256" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <Throw DisplayName="Throw SE - Invalid report" Exception="[new SystemException(&quot;The selected report file is not valid. Details: &quot; + ExceptionMessage)]" sap:VirtualizedContainerService.HintSize="200,25.3333333333333" sap2010:WorkflowViewState.IdRef="Throw_1" />
       </If.Then>
@@ -129,8 +129,8 @@
         </Sequence>
       </If.Else>
     </If>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="484,76" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Once it validates the selected file, continue to upload localities in the website." />
-    <ui:MultipleAssign DisplayName="Multiple Assign - Constants" sap:VirtualizedContainerService.HintSize="484,192.666666666667" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+    <ui:Comment sap:VirtualizedContainerService.HintSize="582.666666666667,76" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Once it validates the selected file, continue to upload localities in the website." />
+    <ui:MultipleAssign DisplayName="Multiple Assign - Constants" sap:VirtualizedContainerService.HintSize="582.666666666667,223.333333333333" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
       <ui:MultipleAssign.AssignOperations>
         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_11">
@@ -147,6 +147,14 @@
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
               <InArgument x:TypeArguments="scg:List(x:String)">[in_Config("ListLocalitiesWithNegativeNumbers").ToString.Split(","c).ToList]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_12">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="scg:List(x:String)">[ListLocalitiesToUncheck]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="scg:List(x:String)">[in_Config("ListLocalitiesToUncheck").ToString.Split(","c).ToList]</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
@@ -168,28 +176,29 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BusinessTaxVirginia\Utils\FixLocalityName.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="BusinessTaxVirginia\Utils\FixLocalityName.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BusinessTaxVirginia\Utils\FixLocalityName.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="582.666666666667,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="BusinessTaxVirginia\Utils\FixLocalityName.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_ListLocalities">[ListLocalities]</InArgument>
         <OutArgument x:TypeArguments="scg:List(x:String)" x:Key="out_ListFixedLocalities">[ListLocalities]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BusinessTaxVirginia\CheckLocalities.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="484,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="BusinessTaxVirginia\CheckLocalities.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BusinessTaxVirginia\CheckLocalities.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="582.666666666667,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="BusinessTaxVirginia\CheckLocalities.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_dtReport">[dtReport]</InOutArgument>
         <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_ListLocalitiesToReject">[ListLocalitiesToReject]</InArgument>
-        <OutArgument x:TypeArguments="scg:List(x:String)" x:Key="out_ListLocalitiesNotFound">[out_ListUnsuccessfulLocalities]</OutArgument>
+        <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_ListLocalitiesToUncheck">[ListLocalitiesToUncheck]</InArgument>
         <OutArgument x:TypeArguments="scg:List(x:String)" x:Key="out_ListLocalitiesRejected">[out_ListLocalitiesWithNegativeSales]</OutArgument>
+        <OutArgument x:TypeArguments="scg:List(x:String)" x:Key="out_ListLocalitiesNotFound">[out_ListUnsuccessfulLocalities]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="484,56.6666666666667" sap2010:WorkflowViewState.IdRef="Comment_4" Text="// Now, fill schedule table with report data." />
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtReport]" DisplayName="For Each Row in dtLocalities" sap:VirtualizedContainerService.HintSize="484,54" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:Comment sap:VirtualizedContainerService.HintSize="582.666666666667,56.6666666666667" sap2010:WorkflowViewState.IdRef="Comment_4" Text="// Now, fill schedule table with report data." />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtReport]" DisplayName="For Each Row in dtLocalities" sap:VirtualizedContainerService.HintSize="582.666666666667,1586.66666666667" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="548.666666666667,1270.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="548.666666666667,1466.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Double" Name="GrossSales" />
               <Variable x:TypeArguments="x:String" Default="Halifax" Name="LocalityName" />
@@ -259,7 +268,13 @@
               </ui:MultipleAssign.AssignOperations>
             </ui:MultipleAssign>
             <ui:Comment sap:VirtualizedContainerService.HintSize="486.666666666667,56.6666666666667" sap2010:WorkflowViewState.IdRef="Comment_3" Text="// Check if locality has negative amounts" />
-            <If Condition="[GrossSales &lt; 0 Or PersonalUse &lt; 0 Or OtherDeductions &lt; 0 Or FoodSales &lt; 0]" DisplayName="If there are negative amounts" sap:VirtualizedContainerService.HintSize="486.666666666667,280.666666666667" sap2010:WorkflowViewState.IdRef="If_2">
+            <If Condition="[GrossSales &lt; 0 Or PersonalUse &lt; 0 Or OtherDeductions &lt; 0 Or FoodSales &lt; 0]" DisplayName="If there are negative amounts" sap:VirtualizedContainerService.HintSize="486.666666666667,54" sap2010:WorkflowViewState.IdRef="If_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
               <If.Then>
                 <Sequence DisplayName="Append Locality in list (negative numbers) " sap:VirtualizedContainerService.HintSize="450,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
@@ -289,10 +304,10 @@
                 </Sequence>
               </If.Else>
             </If>
-            <If Condition="[ListLocalitiesToReject.Contains(LocalityName)]" DisplayName="If Locality name must be rejected" sap:VirtualizedContainerService.HintSize="486.666666666667,54" sap2010:WorkflowViewState.IdRef="If_3">
+            <If Condition="[ListLocalitiesToReject.Contains(LocalityName)]" DisplayName="If Locality name must be rejected" sap:VirtualizedContainerService.HintSize="486.666666666667,280.666666666667" sap2010:WorkflowViewState.IdRef="If_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -325,55 +340,74 @@
                 </Sequence>
               </If.Else>
             </If>
-            <TryCatch DisplayName="Try Catch - Fill Locality sales in Schedule" sap:VirtualizedContainerService.HintSize="486.666666666667,354.666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
-              <TryCatch.Try>
-                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="FillLocationSalesInTable.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="BusinessTaxVirginia\ScheduleTable\FillLocationSalesInTable.xaml">
-                  <ui:InvokeWorkflowFile.Arguments>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_LocationName">[LocalityName]</InArgument>
-                    <InArgument x:TypeArguments="x:Double" x:Key="in_GrossSales">[GrossSales]</InArgument>
-                    <InArgument x:TypeArguments="x:Double" x:Key="in_PersonalUse">[PersonalUse]</InArgument>
-                    <InArgument x:TypeArguments="x:Double" x:Key="in_OtherDeductions">[OtherDeductions]</InArgument>
-                    <InArgument x:TypeArguments="x:Double" x:Key="in_FoodSales">[FoodSales]</InArgument>
-                  </ui:InvokeWorkflowFile.Arguments>
-                </ui:InvokeWorkflowFile>
-              </TryCatch.Try>
-              <TryCatch.Catches>
-                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404.666666666667,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ActivityAction x:TypeArguments="s:Exception">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                    </ActivityAction.Argument>
-                    <Sequence DisplayName="Append error to list" sap:VirtualizedContainerService.HintSize="450,382.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <If Condition="[boolFillLocalityInTable]" DisplayName="If it needs to fill locality in table" sap:VirtualizedContainerService.HintSize="486.666666666667,550.666666666667" sap2010:WorkflowViewState.IdRef="If_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <If.Then>
+                <TryCatch DisplayName="Try Catch - Fill Locality sales in Schedule" sap:VirtualizedContainerService.HintSize="438.666666666667,354.666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                  <TryCatch.Try>
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="FillLocationSalesInTable.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="BusinessTaxVirginia\ScheduleTable\FillLocationSalesInTable.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_LocationName">[LocalityName]</InArgument>
+                        <InArgument x:TypeArguments="x:Double" x:Key="in_GrossSales">[GrossSales]</InArgument>
+                        <InArgument x:TypeArguments="x:Double" x:Key="in_PersonalUse">[PersonalUse]</InArgument>
+                        <InArgument x:TypeArguments="x:Double" x:Key="in_OtherDeductions">[OtherDeductions]</InArgument>
+                        <InArgument x:TypeArguments="x:Double" x:Key="in_FoodSales">[FoodSales]</InArgument>
+                      </ui:InvokeWorkflowFile.Arguments>
+                    </ui:InvokeWorkflowFile>
+                  </TryCatch.Try>
+                  <TryCatch.Catches>
+                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404.666666666667,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,96" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Couldn't upload amounts for the following locality: &quot; + LocalityName + &quot;. Details: &quot; + exception.Message + &quot; at source: &quot; + exception.Source]" />
-                      <uasa:AppendItemToList x:TypeArguments="x:String" ItemIndex="{x:Null}" DisplayName="Append Unsuccessful locality to List" sap:VirtualizedContainerService.HintSize="388,136" sap2010:WorkflowViewState.IdRef="AppendItemToList`1_3" ItemToAppend="[LocalityName]" List="[out_ListUnsuccessfulLocalities]" />
-                    </Sequence>
-                  </ActivityAction>
-                </Catch>
-              </TryCatch.Catches>
-            </TryCatch>
+                      <ActivityAction x:TypeArguments="s:Exception">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Append error to list" sap:VirtualizedContainerService.HintSize="450,382.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,96" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Couldn't upload amounts for the following locality: &quot; + LocalityName + &quot;. Details: &quot; + exception.Message + &quot; at source: &quot; + exception.Source]" />
+                          <uasa:AppendItemToList x:TypeArguments="x:String" ItemIndex="{x:Null}" DisplayName="Append Unsuccessful locality to List" sap:VirtualizedContainerService.HintSize="388,136" sap2010:WorkflowViewState.IdRef="AppendItemToList`1_3" ItemToAppend="[LocalityName]" List="[out_ListUnsuccessfulLocalities]" />
+                        </Sequence>
+                      </ActivityAction>
+                    </Catch>
+                  </TryCatch.Catches>
+                </TryCatch>
+              </If.Then>
+              <If.Else>
+                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
           </Sequence>
         </ActivityAction>
       </ui:ForEachRow.Body>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEachRow>
-    <TryCatch DisplayName="Try Catch - SaveScheduleAsDraft" sap:VirtualizedContainerService.HintSize="484,354.666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+    <TryCatch DisplayName="Try Catch - SaveScheduleAsDraft" sap:VirtualizedContainerService.HintSize="582.666666666667,354.666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_2">
       <TryCatch.Try>
         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="BusinessTaxVirginia\ScheduleTable\SaveScheduleAsDraft.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,115.333333333333" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="BusinessTaxVirginia\ScheduleTable\SaveScheduleAsDraft.xaml">
           <ui:InvokeWorkflowFile.Arguments>

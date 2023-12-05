@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>845.333333333333,2073.33333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>549.333333333333,703.333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>FillLocationSalesInTable_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -76,152 +76,171 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="FillLocationSalesInTable" sap:VirtualizedContainerService.HintSize="596.666666666667,2008.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="FillLocationSalesInTable" sap:VirtualizedContainerService.HintSize="546,638.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534.666666666667,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;FillLocationSalesInTable starts. Locality name is: &lt;&quot;+in_LocationName+&quot;&gt;&quot;]" />
-    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Attach Browser 'Virginia Department of Taxation'" sap:VirtualizedContainerService.HintSize="534.666666666667,1626" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="f4bad299bd4e1bb53b0ce0112287acff" Selector="&lt;html app='chrome.exe' title='Virginia Department of Taxation' /&gt;">
-      <ui:BrowserScope.Body>
-        <ActivityAction x:TypeArguments="x:Object">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="500.666666666667,1478.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Default="3" Name="RowNumber" />
-              <Variable x:TypeArguments="ui:UiElement" Name="LocalityNameElement" />
-            </Sequence.Variables>
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch - Find Location name in table" sap:VirtualizedContainerService.HintSize="438.666666666667,346.666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
-              <TryCatch.Try>
-                <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'Locality name'" FoundElement="[LocalityNameElement]" sap:VirtualizedContainerService.HintSize="334,107.333333333333" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
-                  <ui:WaitUiElementAppear.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1487c142-1bc1-46ee-8232-ca4d59d308ae" InformativeScreenshot="e00c1caef2e8959e59ed216f3cc24f5b" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tag='TD' colName='*Locality*' innertext='*{0}*' /&gt;&quot;, in_LocationName)]" TimeoutMS="15000">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484,96" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;FillLocationSalesInTable starts. Locality name is: &lt;&quot;+in_LocationName+&quot;&gt;&quot;]" />
+    <If Condition="[Not String.IsNullOrWhiteSpace(in_LocationName)]" DisplayName="If Location name is not empty" sap:VirtualizedContainerService.HintSize="484,256" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Attach Browser 'Virginia Department of Taxation'" sap:VirtualizedContainerService.HintSize="356,54" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="f4bad299bd4e1bb53b0ce0112287acff" Selector="&lt;html app='chrome.exe' title='Virginia Department of Taxation' /&gt;">
+          <ui:BrowserScope.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="500.666666666667,1478.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Default="3" Name="RowNumber" />
+                  <Variable x:TypeArguments="ui:UiElement" Name="LocalityNameElement" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <TryCatch DisplayName="Try Catch - Find Location name in table" sap:VirtualizedContainerService.HintSize="438.666666666667,346.666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                  <TryCatch.Try>
+                    <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'Locality name'" FoundElement="[LocalityNameElement]" sap:VirtualizedContainerService.HintSize="334,107.333333333333" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
+                      <ui:WaitUiElementAppear.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1487c142-1bc1-46ee-8232-ca4d59d308ae" InformativeScreenshot="e00c1caef2e8959e59ed216f3cc24f5b" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tag='TD' colName='*Locality*' innertext='*{0}*' /&gt;&quot;, in_LocationName)]" TimeoutMS="15000">
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:WaitUiElementAppear.Target>
+                    </ui:WaitUiElementAppear>
+                  </TryCatch.Try>
+                  <TryCatch.Catches>
+                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404.666666666667,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ActivityAction x:TypeArguments="s:Exception">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                        </ActivityAction.Argument>
+                        <Throw DisplayName="Throw SE - Locality not found" Exception="[new SystemException(&quot;The following locality name was not found in Schedule table: &lt;&quot;+in_LocationName+&quot;&gt;&quot; )]" sap:VirtualizedContainerService.HintSize="200,25.3333333333333" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                      </ActivityAction>
+                    </Catch>
+                  </TryCatch.Catches>
+                </TryCatch>
+                <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="tableRow" DisplayName="Get Attribute - tableRow" sap:VirtualizedContainerService.HintSize="438.666666666667,186" sap2010:WorkflowViewState.IdRef="GetAttribute_1">
+                  <ui:GetAttribute.Result>
+                    <OutArgument x:TypeArguments="x:String">[RowNumber]</OutArgument>
+                  </ui:GetAttribute.Result>
+                  <ui:GetAttribute.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Selector="{x:Null}" Element="[LocalityNameElement]" Id="c5ab5e41-d115-4162-980a-f7ce9600688b" WaitForReady="NONE">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                    </ui:Target>
+                  </ui:GetAttribute.Target>
+                </ui:GetAttribute>
+                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Gross Sales'" EmptyField="True" sap:VirtualizedContainerService.HintSize="438.666666666667,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="[Math.Round(in_GrossSales,2).ToString]">
+                  <ui:TypeInto.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="c64773979fe67f74cd24f27b3eeac28d" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Gross Sales*' /&gt;&quot;, RowNumber)]">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
                       <ui:Target.WaitForReady>
                         <InArgument x:TypeArguments="ui:WaitForReady" />
                       </ui:Target.WaitForReady>
                     </ui:Target>
-                  </ui:WaitUiElementAppear.Target>
-                </ui:WaitUiElementAppear>
-              </TryCatch.Try>
-              <TryCatch.Catches>
-                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404.666666666667,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                  </ui:TypeInto.Target>
+                </ui:TypeInto>
+                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Personal Use'" EmptyField="True" sap:VirtualizedContainerService.HintSize="438.666666666667,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_2" SimulateType="True" Text="[Math.Round(in_PersonalUse,2).ToString]">
+                  <ui:TypeInto.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="a46ab07b6a442d766788de55b69c0637" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Personal Use*' /&gt;&quot;, RowNumber)]">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:TypeInto.Target>
+                </ui:TypeInto>
+                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Deductions'" EmptyField="True" sap:VirtualizedContainerService.HintSize="438.666666666667,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_3" SimulateType="True" Text="[Math.Round(in_OtherDeductions,2).ToString]">
+                  <ui:TypeInto.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="5cf14fb9ad92ab1f7d9980a7b740d37c" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Deductions*' /&gt;&quot;, RowNumber)]">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:TypeInto.Target>
+                </ui:TypeInto>
+                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="438.666666666667,54" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                  <ui:CommentOut.Body>
+                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Heating Fuel Sales'" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_4" SimulateType="True" Text="12345.67">
+                        <ui:TypeInto.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="5cf14fb9ad92ab1f7d9980a7b740d37c" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Heating Fuel*Sales *' /&gt;&quot;, RowNumber)]">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:TypeInto.Target>
+                      </ui:TypeInto>
+                    </Sequence>
+                  </ui:CommentOut.Body>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ActivityAction x:TypeArguments="s:Exception">
-                    <ActivityAction.Argument>
-                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
-                    </ActivityAction.Argument>
-                    <Throw DisplayName="Throw SE - Locality not found" Exception="[new SystemException(&quot;The following locality name was not found in Schedule table: &lt;&quot;+in_LocationName+&quot;&gt;&quot; )]" sap:VirtualizedContainerService.HintSize="200,25.3333333333333" sap2010:WorkflowViewState.IdRef="Throw_1" />
-                  </ActivityAction>
-                </Catch>
-              </TryCatch.Catches>
-            </TryCatch>
-            <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="tableRow" DisplayName="Get Attribute - tableRow" sap:VirtualizedContainerService.HintSize="438.666666666667,186" sap2010:WorkflowViewState.IdRef="GetAttribute_1">
-              <ui:GetAttribute.Result>
-                <OutArgument x:TypeArguments="x:String">[RowNumber]</OutArgument>
-              </ui:GetAttribute.Result>
-              <ui:GetAttribute.Target>
-                <ui:Target ClippingRegion="{x:Null}" Selector="{x:Null}" Element="[LocalityNameElement]" Id="c5ab5e41-d115-4162-980a-f7ce9600688b" WaitForReady="NONE">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                </ui:Target>
-              </ui:GetAttribute.Target>
-            </ui:GetAttribute>
-            <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Gross Sales'" EmptyField="True" sap:VirtualizedContainerService.HintSize="438.666666666667,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="[Math.Round(in_GrossSales,2).ToString]">
-              <ui:TypeInto.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="c64773979fe67f74cd24f27b3eeac28d" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Gross Sales*' /&gt;&quot;, RowNumber)]">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:TypeInto.Target>
-            </ui:TypeInto>
-            <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Personal Use'" EmptyField="True" sap:VirtualizedContainerService.HintSize="438.666666666667,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_2" SimulateType="True" Text="[Math.Round(in_PersonalUse,2).ToString]">
-              <ui:TypeInto.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="a46ab07b6a442d766788de55b69c0637" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Personal Use*' /&gt;&quot;, RowNumber)]">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:TypeInto.Target>
-            </ui:TypeInto>
-            <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Deductions'" EmptyField="True" sap:VirtualizedContainerService.HintSize="438.666666666667,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_3" SimulateType="True" Text="[Math.Round(in_OtherDeductions,2).ToString]">
-              <ui:TypeInto.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="5cf14fb9ad92ab1f7d9980a7b740d37c" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Deductions*' /&gt;&quot;, RowNumber)]">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:TypeInto.Target>
-            </ui:TypeInto>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="438.666666666667,54" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-              <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_3">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Heating Fuel Sales'" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_4" SimulateType="True" Text="12345.67">
-                    <ui:TypeInto.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="5cf14fb9ad92ab1f7d9980a7b740d37c" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Heating Fuel*Sales *' /&gt;&quot;, RowNumber)]">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:TypeInto.Target>
-                  </ui:TypeInto>
-                </Sequence>
-              </ui:CommentOut.Body>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </ui:CommentOut>
-            <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Food Sales'" EmptyField="True" sap:VirtualizedContainerService.HintSize="438.666666666667,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_5" SimulateType="True" Text="[Math.Round(in_FoodSales,2).ToString]">
-              <ui:TypeInto.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="9628d50e2f801ca4fd227fbb39802d9d" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Food Sales*' /&gt;&quot;, RowNumber)]">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:TypeInto.Target>
-            </ui:TypeInto>
-          </Sequence>
-        </ActivityAction>
-      </ui:BrowserScope.Body>
-    </ui:BrowserScope>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534.666666666667,96" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;FillLocationSalesInTable ends&quot;]" />
+                </ui:CommentOut>
+                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into 'Food Sales'" EmptyField="True" sap:VirtualizedContainerService.HintSize="438.666666666667,135.333333333333" sap2010:WorkflowViewState.IdRef="TypeInto_5" SimulateType="True" Text="[Math.Round(in_FoodSales,2).ToString]">
+                  <ui:TypeInto.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="672a8559-cefc-4cc0-8b03-6e2a0f0fdd1a" InformativeScreenshot="9628d50e2f801ca4fd227fbb39802d9d" Selector="[string.Format(&quot;&lt;webctrl parentname='st9BForm' tag='TABLE' /&gt;&lt;webctrl tableRow='{0}' tag='INPUT' colName='*Food Sales*' /&gt;&quot;, RowNumber)]">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:TypeInto.Target>
+                </ui:TypeInto>
+              </Sequence>
+            </ActivityAction>
+          </ui:BrowserScope.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:BrowserScope>
+      </If.Then>
+      <If.Else>
+        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
+    </If>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484,96" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;FillLocationSalesInTable ends&quot;]" />
   </Sequence>
 </Activity>
