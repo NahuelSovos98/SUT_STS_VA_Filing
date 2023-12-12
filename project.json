@@ -1,5 +1,6 @@
 {
   "name": "SUT_STS_VA_Filing",
+  "projectId": "cd9838bd-54e9-4e21-9887-f05be600bc7e",
   "description": "Filing localities gross sales and amounts in Virginia Website.",
   "main": "Main.xaml",
   "dependencies": {
@@ -136,7 +137,8 @@
         "fileName": "Tests\\Main\\Test_RemoveLocalityInList.xaml"
       }
     ],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
